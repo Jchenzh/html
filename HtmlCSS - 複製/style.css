@@ -1,0 +1,185 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+	font-family:"Socialico";
+	src:url("Socialico.eot?") format("eot"),url("Socialico.woff") format("woff"),url("Socialico.ttf") format("truetype"),url("Socialico.svg#Socialico") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face{
+	font-family: sosa;
+	src: url(font/sosa-regular-webfont.ttf)
+}
+
+body{
+	background-color: paleturquoise;
+	color:darkslateblue;
+	font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "Noto Sans TC", "sans-serif";
+}
+
+
+.header{
+	position: relative;
+	min-width: 320px;
+}
+.tbg img{
+	width: 100%;
+}
+.title{
+	padding: 0;
+	margin: 0;
+	position:absolute;
+	color:goldenrod;
+	font-family: Pacifico, Arial, Helvetica, sans-serif;
+	left: 3%;
+	top: 30%;
+}
+
+
+.title h1{
+	font-size: 4em;	
+}
+.title h2{
+	font-size: 2em;
+}
+@media only screen and ( max-width: 60em )
+{
+	.title{line-height: 1.5em;}
+	.title h1{font-size: 2em;}
+	.title h2{font-size: 1em;}
+	
+}
+@media only screen and ( max-width: 30em )
+{
+	.title{
+		left: 0;
+		top:10%;
+	}
+	.title h1{font-size: 2em;}
+	.title h2{font-size: 1em;}
+	
+	
+}	
+
+
+.nav ul{
+	padding: 0 2%;
+	background-color:darkslategray;
+	height: calc(3em + 2px);
+	min-width: 30em;
+}
+.nav li {
+	width: 6em;
+	padding: 5px;
+	
+}
+
+.nav .btn{
+	height:50px;
+	width: 100%;
+	color:aqua;
+	background-color:cadetblue;
+}
+
+.nav a{
+	display:block;
+	text-align: center;
+	background-color:royalblue;
+	color:lightcyan;
+	text-decoration: none;
+	margin: 0 auto;
+}
+.nav a:hover{
+	background-color: lightskyblue;
+	border-radius: 5px;
+}
+
+
+
+.content {
+	margin: 1%;
+	float: left;
+	width: 70%;
+	min-width: 256px;
+	border-radius: 5px;
+}
+.content img {
+	margin: 10px;
+	float:left;
+	width: 30vw;
+	max-width: 400px;
+	min-width: 192px;
+}
+
+
+.side {
+	margin: 1%;
+    width: 18%;
+	min-width: 256px;
+	float: right;
+	padding: 15px;
+	background-color:khaki;
+	border-radius: 5px;
+}
+.side img{
+	width: 100%;
+	margin: auto 1%;
+}
+.side ul{
+    list-style-type: none;
+	
+}
+.side li{
+	padding: 3px;
+}
+.side li .btn2{
+	font-size: 20px;
+    display: block;
+	text-decoration: none;
+	height: 50px;
+	line-height: 40px;
+	background-color:azure;
+	text-align: center;
+	border-radius: 5px;
+	margin: auto;
+}
+.side li .btn2:hover{
+	background-color:gray;
+}
+
+@media screen and (max-width: 750px) {
+	.side{
+		clear: both;
+		float:none;
+		margin:auto;
+
+	}
+	.content{
+		width: 100%;
+
+	}
+	
+}
+
+
+.footer {
+	background-color:darkgrey;
+	color:lightslategrey;
+	text-align: center;
+	clear: both;
+	height:3em;
+}
+.btn2{
+	width: 90%;
+	margin:auto;
+}
+
+
+.footer h4{
+	font-size:1em;
+	margin: auto;
+}

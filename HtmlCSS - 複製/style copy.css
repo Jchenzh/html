@@ -1,0 +1,249 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+	font-family:"Socialico";
+	src:url("Socialico.eot?") format("eot"),url("Socialico.woff") format("woff"),url("Socialico.ttf") format("truetype"),url("Socialico.svg#Socialico") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face{
+	font-family: sosa;
+	src: url(sosa-regular-webfont.ttf)
+}
+
+body{
+	background-color: paleturquoise;
+	color:darkslateblue;
+	font-family: "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "Noto Sans TC", "sans-serif";
+}
+
+.container {
+	margin: 0 auto;
+	background-color:lightblue;
+
+}
+.container p{
+	margin: 20px 30px;
+}
+.container h1{
+	font-size: 36px;
+	margin: 20px;
+}
+.container h2{
+	margin: 20px;
+}
+
+.header{
+	position: relative;
+	min-width: 320px;
+}
+.tbg img{
+	width: 100%;
+}
+.title{
+	padding: 0;
+	margin: 0;
+	position:absolute;
+	color:goldenrod;
+	font-family: Pacifico, Arial, Helvetica, sans-serif;
+	left: 3%;
+	top: 30%;
+}
+
+
+.title h1{
+	font-size: 4em;	
+}
+.title h2{
+	font-size: 2em;
+}
+@media only screen and ( max-width: 60em )
+{
+	.title{line-height: 1.5em;}
+	.title h1{font-size: 2em;}
+	.title h2{font-size: 1em;}
+	
+}
+@media only screen and ( max-width: 30em )
+{
+	.title{
+		left: 0;
+		top:10%;
+	}
+	.title h1{font-size: 2em;}
+	.title h2{font-size: 1em;}
+	
+}	
+.nav ul{
+	padding: 0 2%;
+	background-color:darkslategray;
+	height: calc(3em + 2px);
+	min-width: 30em;
+}
+.nav li {
+    list-style: none;
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+	padding: 1px;
+	
+}
+.nav a{
+	font-size: 1.5em;
+    display: block;
+	line-height: 2em;
+	text-align: center;
+	background-color:royalblue;
+	color:lightcyan;
+	text-decoration: none;
+	margin: 0 auto;
+}
+.nav a:hover{
+	background-color: lightskyblue;
+	border-radius: 5px;
+}
+@media only screen and ( max-width: 30em )
+{
+.nav ul{
+	height: calc(9em + 6px);
+	min-width: 16em;
+}
+.nav li	{
+		width: 50%;
+	
+}
+}
+
+.content {
+	margin: 1%;
+	background-color:snow;
+	float: left;
+	width: 78%;
+	min-width: 256px;
+	border-radius: 5px;
+}
+.content img {
+	margin: 10px;
+	float:left;
+	width: 30vw;
+	max-width: 400px;
+	min-width: 192px;
+}
+
+.content2 {
+	margin: 1%;
+	background-color:snow;
+	float: right;
+	width: 78%;
+	min-width: 256px;
+	border-radius: 5px;
+}
+.content2 img {
+	margin: 10px;
+	width: 30vw;
+	max-width: 400px;
+	min-width: 192px;
+	float: right
+}
+
+
+div .ccc{
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.samle {
+	float: left;
+	width: calc(100%/3-10px);
+	max-width: 400px;
+	background-color: aliceblue;
+	margin: 5px auto;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+}
+.samle img{
+	margin: auto;
+	width: 100%;
+	height: auto;
+
+}
+
+.nav2 {
+	margin: 1%;
+    width: 18%;
+	min-width: 256px;
+	float: left;
+	padding-bottom: 10px;
+}
+.nav2 img{
+	width: 100%;
+	margin: auto 1%;
+}
+.nav2 ul{
+    list-style-type: none;
+	
+}
+.nav2 li{
+	padding-bottom: 6px;
+}
+.nav2 li a{
+	font-size: 20px;
+    display: block;
+	text-decoration: none;
+	height: 50px;
+	line-height: 50px;
+	background-color:azure;
+	text-align: center;
+	border-radius: 5px;
+	margin: auto ;
+}
+.nav2 li a:hover{
+	background-color:gray;
+}
+.contact{
+	margin: 1% auto;
+	width: 48%;
+	min-width: 300px;
+	float:left;
+	text-align: center;
+}
+.footer {
+	background-color:darkgrey;
+	color:lightslategrey;
+	text-align: center;
+	clear: both;
+}
+
+.social{
+	display: inline-block;
+	padding: 5px;
+	font-size: 4em;
+	color: cadetblue;
+	text-decoration: none;
+	font-family: socialico, sosa;
+}
+.social:hover{ 
+	color:deepskyblue;
+}
+.bbb{
+	display: inline-block;
+	color: snow;
+	background-color:mediumpurple;
+	font-size: 2em;
+	text-decoration: none;
+	line-height: 2em;
+	margin: 1em;
+	width: 200px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.bbb:hover{
+	background-color: cornflowerblue;
+}

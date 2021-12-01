@@ -1,0 +1,23 @@
+
+
+
+.contact{
+	margin: 1% auto;
+	width: 48%;
+	min-width: 300px;
+	float:left;
+	text-align: center;
+}
+
+
+.social{
+	display: inline-block;
+	padding: 5px;
+	font-size: 4em;
+	color: cadetblue;
+	text-decoration: none;
+	font-family: socialico, sosa;
+}
+.social:hover{ 
+	color:deepskyblue;
+}

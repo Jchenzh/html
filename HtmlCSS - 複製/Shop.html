@@ -1,0 +1,31 @@
+<style>
+    #id_item{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        overflow-wrap: initial;
+        float: left;
+        width: 300px;
+        margin: 10px auto ;
+    }
+    .check{
+        margin: 30px;
+    }
+</style>
+
+<button type="button" class="btn btn-info " onclick="updateItem()">更新</button>
+<button type="button" class="btn btn-info cartbtn">
+    購物車
+    <span class="badge badge-pill badge-danger" id="cart-n">0</span>
+</button>
+ <div id="id_about" style="background-color:lightgoldenrodyellow"></div>
+ <div id="item">
+     <h3>商品</h3>
+     <div id="id_item">
+     </div>
+ </div>
+ <div id="boxx"></div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="JsShop.js"></script>
+ 

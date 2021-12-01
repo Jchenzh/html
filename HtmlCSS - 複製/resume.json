@@ -1,0 +1,12 @@
+﻿{
+    "name":"皮卡丘", 
+    "photo":"皮卡丘.png", 
+    "edu":"台灣科技大學", 
+    "major":"材料工程", 
+    "interest":["聽音樂", "桌遊", "運動"], 
+    "skill":["python程式設計", "RWD網站設計", "MSSQL資料庫"],
+    "skill2":["python", "C#", "HTML CSS", "JQuery", "JavaScript"],
+    "exp":[{"time":"0", "job":"程式設計", "description":"責專案Android APP之開發、維護及後續優化"}, 
+        {"time":"0", "job":"網頁設計", "description":" HTML、CSS語法、網頁切版、網頁編輯設計，熟悉前端動態效果技術，有美感。"}],
+    "intro":"我的興趣廣泛，對程式設計、網頁應用開發有高的興趣，雖然沒有相關背景，但熱衷學習新的技術，不放棄任何自我成長的機會，在職訓課程學習到了Python程式、RWD網頁設計、資料庫系統，加深對於程式的興趣，決定自修深造，希望能讓腦海中的想法化為實際的產物，作出更能強化使用者體驗的網站或功能。目前能用css、Bootstrap、 Javascript、jquery做出基本的網頁，也持續學習更多程式開發工具，將目標放在軟體設計、Web Apps開發。 "
+}
